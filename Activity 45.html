@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url("https://img.freepik.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg");
+    background-repeat: repeat;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 385px;
+    background-color: #9932cc;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #663399;
+    color: white;
+}
+
+li a.active {
+    background-color: green;
+    color: black;
+}
+
+li a:hover:not(.active) {
+    background-color: #663399;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>New Topic Navigation Bar</h2>
+
+<ul>
+  <li><a class="active" href="#home">Welcome</a></li>
+  <li><a href="#news">Updates</a></li>
+  <li><a href="#contact">Reach&nbsp;Out</a></li>
+  <li><a href="#about">Learn&nbsp;More</a></li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-image: url("https://img.freepik.com/free-vector/white-background-gradient-modern-abstract-design-wave_343694-2337.jpg");
+    background-repeat: repeat;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9932cc;
+}
+li {
+    float: left;
+    border-right: 1px solid black;
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #663399;
+    color: white;
+}
+.active {
+    background-color: #4CAF50;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="#home">Welcome</a></li>
+  <li><a href="#news">Updates</a></li>
+  <li><a href="#contact">Get in Touch</a></li>
+  <li style="float:right"><a href="#about">Learn More</a></li>
+</ul>
+</body>
+</html>
